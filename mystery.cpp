@@ -31,7 +31,7 @@ void mystery2(auto& Data)
 
   for ( int i = 0 ; i < Data.size( ) ; i++)
   {
-    for ( int j = 0 ; j < Data . size ( ) −1 ; j++)
+    for ( int j = 0 ; j < Data . size ( ) -1 ; j++)
 	if ( Data [ j+1] < Data [ j ] )
 	    swap ( Data [ j +1] , Data [ j ] ) ;
 
